@@ -4,7 +4,7 @@ from pathlib import Path
 
 def open_editor(filename):
     subprocess.run([
-        'alacritty',
+        'kitty',
         #'-geometry', '60x5',
         #'-name', 'popup-bottom-center',
         '-e', "nvim",
